@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #212529;
+    color: white;
+}
+
+/* Header heading section */
+#heading {
+    margin-top: 100px;
+}
+
+/* Header navbar */
+#nav {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* Header search bar section */
+#search-bar {
+    max-width: 600px;
+}
+
+#search-bar input {
+    height: 50px;
+}
+
+/* Meal card */
+#card {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#card:hover {
+    transform: scale(1.05);
+    background-color: crimson;
+}
+
+/* Meal details container */
+#meal-details {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+#meal-header {
+    width: 70%;
+    margin: auto;
+}
+
+#meal-thumbnail img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#meal-instruction {
+    margin: auto;
+    text-align: center;
+}
+
+/* Favorites offcanvas */
+#favourites-body {
+    background-color: #212529;
+}
