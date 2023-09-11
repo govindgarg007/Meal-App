@@ -23,7 +23,7 @@
 # Contributors
     Govind Garg
 # Video Explanation
-    Link to video explanation:- https://youtu.be/dtNYzA1SiKw
+    Link to video explanation:-https://youtu.be/WQjDD2FUUZI
 
 # Hosted Code
     The code is hosted on GitHub at https://govindgarg007.github.io/Meal-App/
